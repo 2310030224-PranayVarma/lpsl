@@ -10,7 +10,7 @@
         if(!s)
             return res.send("Please provide a valid string")
         const ans  = getlpsl(s);
-        return res.send(`result = ${ans}`)
+        return res.send(ans)
     })
 
     app.listen(3000, () => {
